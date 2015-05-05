@@ -1,0 +1,14 @@
+
+
+<span id="heroalert" ng-init="count = 0" ng-show="count === 1">
+	{{product.name}} is on route!
+</span>
+ 
+<button class="btn btn-default summonbutton" ng-show="product.canPurchase" ng-click="count = 1">
+    Summon Hero!
+</button>
+
+				
+<h3 class="btn btn-default" id="soldOut" ng-hide="product.canPurchase" ng-click="count = 1"> 
+	Back in 5 
+</h3>

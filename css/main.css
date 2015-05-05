@@ -1,0 +1,80 @@
+
+/*
+* *:hover { border:2px solid #89A81E }                   /* Solid Green */  /*
+* * *:hover { border:2px solid #F34607 }                 /* Solid Orange */ /*
+* * * *:hover { border:2px solid #5984C3 }               /* Solid Blue */ /*
+* * * * *:hover { border:2px solid #CD1821 }             /* Solid Red */ /*
+* * * * * *:hover { border:2px dotted #89A81E }          /* Dotted Green */ /*
+* * * * * * *:hover { border:2px dotted #F34607 }        /* Dotted Orange */ /*
+* * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */ /*
+* * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */ /**/ 
+
+
+.container-flex {
+	background-color: #eee;
+}
+
+.inner-container {
+	border-style: outset;
+	background-color: green;
+	overflow: hidden;
+
+}
+.header { 
+}
+.products{
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+	width: 280px;
+	overflow: hidden;
+	background-color: white;
+}
+#soldOut {
+	font-size: 20px;
+	margin-top: 20px;
+	color: red;
+}
+.star-selector{
+	style: 'btn-info';
+	size: 4;
+}
+.tab-sets {
+	padding: 10px;
+	max-width: 500px;
+	margin: 0, auto;
+}
+#submit{
+	margin-top: 20px;
+	color: blue;
+}
+#author-reviewform{
+	margin-top: 10px;
+}
+img{
+	max-width: 100%;
+}
+.ng-invalid.ng-dirty{
+    border-color: red;
+}
+.ng-valid.ng-dirty{
+ border-color: green;
+}
+
+#heroalert {
+	
+	padding: 10px;
+	border: 2px;
+	background-color: red;
+	border-radius: 10px;
+}
+#prod-container {
+	background-color: red;
+}
+.summonbutton {
+	margin-top: 10px;
+}
+.footer {
+	background-color: lime;
+	border: 10px;
+}

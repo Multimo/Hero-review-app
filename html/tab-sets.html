@@ -1,0 +1,25 @@
+	<tabset>
+						<tab class="tab-sets" ng-show="tab === 1">
+							<tab-description></tab-description>
+							<!--<blockquote id="products">{{product.description}}</blockquote>-->
+						</tab>
+						<tab class="tab-sets" ng-show="tab === 2">
+							<ul>
+								<li>Shiny</li>
+								<li>flying</li>
+								<li>fishing</li>
+							</ul>
+						</tab>
+								<tab class="tab-sets" ng-show="tab === 3">
+
+						 <!--reveiws in json print here -->
+						 		<h4>Reviews</h4>
+									<blockquote ng-repeat="review in product.reviews">
+										<b> Rating: {{review.stars}} / 5</b>
+										<blockquote>{{review.text}}</blockquote>
+										<cite>by- {{review.author}}</cite>
+									</blockquote>
+
+								<review-form></review-form>
+							</tab>
+</tabset>
